@@ -1,3 +1,5 @@
+var constants = require('./constants')
+
 module.exports = {
   addTodo: function(text) {
     this.dispatch(constants.ADD_TODO, {text: text});

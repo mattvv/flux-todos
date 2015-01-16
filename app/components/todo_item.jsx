@@ -1,5 +1,4 @@
 var React = require('react');
-
 var Fluxxor = require('fluxxor');
 var FluxMixin = Fluxxor.FluxMixin(React);
 
@@ -22,3 +21,4 @@ var TodoItem = React.createClass({
     this.getFlux().actions.toggleTodo(this.props.todo);
   }
 });
+module.exports = TodoItem;

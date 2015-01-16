@@ -1,5 +1,5 @@
 var Fluxxor = require('fluxxor');
-var React = require('React');
+var React = require('react');
 
 var TodoStore = require('./stores/todo_store');
 var constants = require('./constants');

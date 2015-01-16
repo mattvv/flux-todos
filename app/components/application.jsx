@@ -60,3 +60,5 @@ var Application = React.createClass({
     this.getFlux().actions.clearTodos();
   }
 });
+
+module.exports = Application;
